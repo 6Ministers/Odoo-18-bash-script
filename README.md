@@ -6,9 +6,9 @@ Odoo-18-bash-script
 
 1. Запустить VPS
 Рекомендация минимум
-2 Core
-3 RAM
-20 GB SSD
+* 2 Core
+* 3 RAM
+* 20 GB SSD
 
 2. Подключится и запустить консоль
 Рекомендация
@@ -33,12 +33,12 @@ cd odoo
 4. Конфигурация скрипта
 Замените WEBSITE_NAME на ваш домен в WinSCP клиенте
 
-`WEBSITE_NAME="WEBSITE_NAME"  # Set the domain name`
-`ADMIN_EMAIL="admin@WEBSITE_NAME"  # Email for SSL registration`
+* `WEBSITE_NAME="WEBSITE_NAME"  # Set the domain name`
+* `ADMIN_EMAIL="admin@WEBSITE_NAME"  # Email for SSL registration`
 
 Установите на свое усмотрение True или False
-`INSTALL_NGINX="True"  # Set to True if you want to install Nginx`
-`ENABLE_SSL="True"  # Enable SSL`
+* `INSTALL_NGINX="True"  # Set to True if you want to install Nginx`
+* `ENABLE_SSL="True"  # Enable SSL`
 
 5. Активировать скрипт
 ``` bash
