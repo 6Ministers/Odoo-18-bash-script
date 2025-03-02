@@ -338,7 +338,7 @@ if [ "$INSTALL_NGINX" = "True" ] && [ "$ENABLE_SSL" = "True" ] && [ "$ADMIN_EMAI
 # Install new Nginx config
 #--------------------------------------------------
 
-if [ "$INSTALL_NGINX" = "True" ]; then
+if [ "$ENABLE_SSL" = "True" ]; then
   echo -e "\n---- Installing new Nginx config ----"
   sudo rm /etc/nginx/sites-available/$WEBSITE_NAME
 
