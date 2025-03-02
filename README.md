@@ -4,17 +4,19 @@ Odoo-18-bash-script
 
 Инструкция установки
 
-1. Запустить VPS
+1. **Запустить VPS**
+
 Рекомендация минимум
 * 2 Core
 * 3 RAM
 * 20 GB SSD
 
-2. Подключится и запустить консоль
-Рекомендация
-WinSCP + Putty
+2. **Подключитесь к хостингу и запустить консоль**
 
-3. Перейдите в каталог
+Рекомендация
+* `WinSCP + Putty`
+
+3. **Перейдите в каталог**
 ``` bash
 cd root
 ```
@@ -30,7 +32,7 @@ cd odoo
 ```
 
 
-4. Конфигурация скрипта
+4. **Конфигурация скрипта**
 Замените WEBSITE_NAME на ваш домен в WinSCP клиенте
 
 * `WEBSITE_NAME="WEBSITE_NAME"  # Set the domain name`
@@ -40,18 +42,18 @@ cd odoo
 * `INSTALL_NGINX="True"  # Set to True if you want to install Nginx`
 * `ENABLE_SSL="True"  # Enable SSL`
 
-5. Активировать скрипт
+5. **Активировать скрипт**
 ``` bash
 sudo chmod +x install_odoo18_ubuntu.sh
 ```
 
-6. Запустить скрипт
+6. **Запустить скрипт**
 ``` bash
 ./install_odoo18_ubuntu.sh
 ```
 
-7. Подождите 5-8 минут
+7. **Подождите 5-8 минут**
 
-8. Перейдите по ссылке:
+8. **Перейдите по ссылке:**
 
 `https://Ваш_домен/`
