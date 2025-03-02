@@ -1,5 +1,5 @@
 ---
-title: Odoo-18-bash-script
+Odoo-18-bash-script
 ---
 
 Инструкция установки
