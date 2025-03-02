@@ -21,8 +21,14 @@ cd root
 
 3. Загрузить скрипт
 ``` bash
-curl -s https://raw.githubusercontent.com/6https://github.com/6Ministers/Odoo-18-bash-script/tree/master/install_odoo18_ubuntu.sh| sudo bash -s nextcloud
+curl -s https://raw.githubusercontent.com/6https://github.com/6Ministers/Odoo-18-bash-script/tree/master/install_odoo18_ubuntu.sh| sudo bash -s odoo
 ```
+
+Перейдите в каталог
+``` bash
+cd odoo
+```
+
 
 4. Конфигурация скрипта
 Замените WEBSITE_NAME на ваш домен в WinSCP клиенте
