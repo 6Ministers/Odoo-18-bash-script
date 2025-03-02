@@ -21,7 +21,7 @@ Odoo-18-bash-script
 cd root
 ```
 
-3. Загрузить скрипт
+3. **Загрузить скрипт**
 ``` bash
 curl -s https://raw.githubusercontent.com/6https://github.com/6Ministers/Odoo-18-bash-script/tree/master/install_odoo18_ubuntu.sh| sudo bash -s odoo
 ```
@@ -31,8 +31,8 @@ curl -s https://raw.githubusercontent.com/6https://github.com/6Ministers/Odoo-18
 cd odoo
 ```
 
-
 4. **Конфигурация скрипта**
+
 Замените WEBSITE_NAME на ваш домен в WinSCP клиенте
 
 * `WEBSITE_NAME="WEBSITE_NAME"  # Set the domain name`
