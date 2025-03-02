@@ -23,7 +23,7 @@ cd root
 
 3. **Загрузить скрипт**
 ``` bash
-curl -s https://raw.githubusercontent.com/6https://github.com/6Ministers/Odoo-18-bash-script/tree/master/install_odoo18_ubuntu.sh| sudo bash -s odoo
+curl -s https://raw.githubusercontent.com/6https://github.com/6Ministers/Odoo-18-bash-script/tree/master/install_odoo18_ubuntu.sh | sudo bash -s odoo
 ```
 
 Перейдите в каталог
