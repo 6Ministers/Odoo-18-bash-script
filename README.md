@@ -36,7 +36,7 @@ cd odoo
 * `WEBSITE_NAME="WEBSITE_NAME"  # Set the domain name`
 * `ADMIN_EMAIL="admin@WEBSITE_NAME"  # Email for SSL registration`
 
-Установите на свое усмотрение True или False
+Установите на свое усмотрение `True` или `False`
 * `INSTALL_NGINX="True"  # Set to True if you want to install Nginx`
 * `ENABLE_SSL="True"  # Enable SSL`
 
